@@ -1,0 +1,78 @@
+/* list of people */
+ul.Voice_voiceStates__a121W {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+}
+
+/* profile */
+li.Voice_voiceState__OCoZh {
+    height: unset;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #1E1E1E;
+    background: linear-gradient(0deg, #1E1E1E, #3d3d3d);
+}
+
+/* profile pic */
+img.Voice_avatar__htiqH {
+    border-radius: 0;
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin: 0;
+    border: none;
+}
+
+/* profile pic when speaking */
+img.Voice_avatarSpeaking__lE\+4m {
+    animation: 0.1s infinite ease-in-out alternate-reverse talking;
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/grunt.gif') !important;
+}
+
+/* profile name div */
+div.Voice_user__8fGwX {
+    padding: 0;
+    min-height: 32px;
+    width: 100px;
+}
+
+/* profile name span */
+span.Voice_name__TALd9 {
+    border-radius: 0;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    word-break: break-word;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 14px !important;
+    color: #9CFF19 !important;
+    background-color: unset !important;
+}
+
+/* talking animation */
+@keyframes talking {
+    0% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}

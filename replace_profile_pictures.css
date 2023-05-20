@@ -1,0 +1,7 @@
+/* replacing everyone assets by custom ones */
+img.Voice_avatar__htiqH {
+    padding-right: 100px;
+    box-sizing: border-box;
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    background-size: 100px;
+}

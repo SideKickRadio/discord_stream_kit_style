@@ -1,0 +1,9 @@
+/* even and odd example */
+li.Voice_voiceState__OCoZh:nth-child(even) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    /*background-color: #9CFF19;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(odd) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/headhunter.gif');
+    /*background-color: #1AFFA7;*/
+}

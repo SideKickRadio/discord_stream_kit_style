@@ -1,9 +1,14 @@
 # discord stream kit style
-make your own discord voice widget stream overlay
 
-here's some custom css you can add on obs to your discord vocal stream kit.
+here's some custom css you can add on obs to your discord vocal streamkit.
 
-first push bring a **vertical overlay**.
+options available :
+
+- vertical design
+- horizontal design
+- replace profile pic of your teammates
+- change teammates profile style even/odd way
+- change teammates profile style one by one
 
 ## get discord stream kit
 
@@ -23,22 +28,31 @@ this url goes in your obs browser capture.
 
 ## obs browser capture
 
-1. url : paste the streamkit url you just got
-2. width : 240
-3. height : 1080
-4. custom css : put what you'll find in the style.css file in this repo
+1. **url** : paste the streamkit url you just got
+2. **width** : adjust as you like
+3. **height** : adjust as you like
+4. **custom css** : put what you'll find in css files in this repo
 
-## the style.css file
+## the css files
 
-in this file, feel free to select the part you need (you don't want to fill your obs with useless code lines)
+in those files you'll find everything you need to customize your discord voice widget.
 
-from **line 82** to **118** you'll find optional style
-- **line 84 to 92** : a way to style teammates pictures with an even/odd method
-- **line 94 to 118** : a way to style teammates pictures with a specific order given (you can add more than 6 selectors ofc, depends on the number of ppl you'll have on your vocal channel)
+first you need to chose between :  
+🔴 `horizontal_core_style.css` or `vertical_core_style.css` 🔵
 
-if you copy/paste the file as it is, your streamkit overlay should look like this :
+those are the core files. once you know which way you want to go, you can copy the whole file and put it into your browser catpure's custom css.
 
-![example of what the overlay should look like](/assets/discord_streamkit_custom_video.gif)
+then, you can add options :
+- you want to replace your teammates profile pictures because reasons ? then copy what's in the `replace_profile_pictures.css` file and put it at the end of the custom css you pasted just before
+- you want to change the appearance of your teammates profile even/odd style ? do the same thing with the `even_odd_style.css`
+- you want to change the style of your teammates profile in a more precise way ? you need what's inside `one_by_one.css` file
+
+if you're not satisfied with the borders, the background of the profiles, the colors, the font style, feel free to change everything you need !
+I added the `index.html` file to be a real sandbox !
+
+careful tho, you better use firefox to preview your changes
+
+glhf
 
 ## ⚠️ good to know ⚠️
 

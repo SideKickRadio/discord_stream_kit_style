@@ -1,0 +1,25 @@
+/* detailed version example */
+li.Voice_voiceState__OCoZh:nth-child(1) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    /*background-color: #1AFFA7;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(2) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/headhunter.gif');
+    /*background-color: #1AC9FF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(3) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/shaman.gif');
+    /*background-color: #1A36FF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(4) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/witchdoctor.gif');
+    /*background-color: #731AFF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(5) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/wolfrider.gif');
+    /*background-color: #D71AFF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(6) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/tauren.gif');
+    /*background-color: #FF1ACF;*/
+}
