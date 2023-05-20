@@ -33,8 +33,12 @@ this url goes in your obs browser capture.
 in this file, feel free to select the part you need (you don't want to fill your obs with useless code lines)
 
 from **line 82** to **118** you'll find optional style
-- **line 84 to 92** : a way to style teammates pictures with a even/odd method
+- **line 84 to 92** : a way to style teammates pictures with an even/odd method
 - **line 94 to 118** : a way to style teammates pictures with a specific order given (you can add more than 6 selectors ofc, depends on the number of ppl you'll have on your vocal channel)
+
+if you copy/paste the file as it is, your streamkit overlay should look like this :
+
+![example of what the overlay should look like](/assets/discord_streamkit_custom_video.gif)
 
 ## ⚠️ good to know ⚠️
 
