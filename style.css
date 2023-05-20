@@ -1,0 +1,128 @@
+/* list of people */
+ul.Voice_voiceStates__a121W {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100px;
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    margin-left: auto;
+}
+
+/* profile */
+li.Voice_voiceState__OCoZh {
+    height: unset;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* profile pic */
+img.Voice_avatar__htiqH {
+    border-radius: 0;
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin: 0;
+    border: none;
+}
+
+/* profile pic when speaking */
+img.Voice_avatarSpeaking__lE\+4m {
+    /* put style here */
+}
+
+/* whole profile when speaking */
+li.Voice_voiceState__OCoZh:has(img.Voice_avatarSpeaking__lE\+4m) {
+    animation: 0.1s infinite ease-in-out alternate-reverse talking;
+    box-sizing: border-box;
+}
+
+/* profile name div */
+div.Voice_user__8fGwX {
+    padding: 0;
+    min-height: 32px;
+    width: 100px;
+}
+
+/* profile name span */
+span.Voice_name__TALd9 {
+    border-radius: 0;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    word-break: break-word;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px !important;
+    color: #9CFF19 !important;
+    background-color: #1E1E1E !important;
+}
+
+/* replacing everyone pictures by custom ones */
+img.Voice_avatar__htiqH {
+    padding-right: 100px;
+    box-sizing: border-box;
+    /*background: url('https://i.postimg.cc/x8PZB3Wx/small-kick-still.png');*/
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    background-size: 100px;
+}
+
+/* profile pic when speaking */
+img.Voice_avatarSpeaking__lE\+4m {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/grunt.gif') !important;
+}
+
+/* now setting different background color and/or picture for each teammate */
+
+/* even and odd example */
+li.Voice_voiceState__OCoZh:nth-child(even) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    /*background-color: #9CFF19;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(odd) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/headhunter.gif');
+    /*background-color: #1AFFA7;*/
+}
+
+/* detailed version example */
+li.Voice_voiceState__OCoZh:nth-child(1) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
+    /*background-color: #1AFFA7;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(2) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/headhunter.gif');
+    /*background-color: #1AC9FF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(3) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/shaman.gif');
+    /*background-color: #1A36FF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(4) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/witchdoctor.gif');
+    /*background-color: #731AFF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(5) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/wolfrider.gif');
+    /*background-color: #D71AFF;*/
+}
+li.Voice_voiceState__OCoZh:nth-child(6) > img.Voice_avatar__htiqH {
+    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/tauren.gif');
+    /*background-color: #FF1ACF;*/
+}
+
+/* talking animation */
+@keyframes talking {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-12px);
+    }
+}
