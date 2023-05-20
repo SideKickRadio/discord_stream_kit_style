@@ -35,12 +35,6 @@ img.Voice_avatarSpeaking__lE\+4m {
     /* put style here */
 }
 
-/* whole profile when speaking */
-li.Voice_voiceState__OCoZh:has(img.Voice_avatarSpeaking__lE\+4m) {
-    animation: 0.1s infinite ease-in-out alternate-reverse talking;
-    box-sizing: border-box;
-}
-
 /* profile name div */
 div.Voice_user__8fGwX {
     padding: 0;
@@ -58,8 +52,7 @@ span.Voice_name__TALd9 {
     text-align: center;
     box-sizing: border-box;
     word-break: break-word;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #9CFF19 !important;
     background-color: #1E1E1E !important;
 }
@@ -74,6 +67,7 @@ img.Voice_avatar__htiqH {
 
 /* profile pic when speaking */
 img.Voice_avatarSpeaking__lE\+4m {
+    animation: 0.1s infinite ease-in-out alternate-reverse talking;
     background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/grunt.gif') !important;
 }
 
@@ -118,9 +112,9 @@ li.Voice_voiceState__OCoZh:nth-child(6) > img.Voice_avatar__htiqH {
 /* talking animation */
 @keyframes talking {
     0% {
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
     100% {
-        transform: translateX(-12px);
+        transform: translateY(-12px);
     }
 }
