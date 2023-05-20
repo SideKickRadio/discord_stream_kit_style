@@ -1,7 +1,6 @@
 /* list of people */
 ul.Voice_voiceStates__a121W {
     display: flex;
-    flex-direction: row-reverse;
     width: 100px;
     height: fit-content;
     flex-wrap: wrap;
@@ -69,7 +68,6 @@ span.Voice_name__TALd9 {
 img.Voice_avatar__htiqH {
     padding-right: 100px;
     box-sizing: border-box;
-    /*background: url('https://i.postimg.cc/x8PZB3Wx/small-kick-still.png');*/
     background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/peon.gif');
     background-size: 100px;
 }
