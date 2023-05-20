@@ -10,12 +10,13 @@ ul.Voice_voiceStates__a121W {
 
 /* profile */
 li.Voice_voiceState__OCoZh {
-    height: unset;
     border-radius: 4px;
     overflow: hidden;
     width: 100px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: relative;
     border: 2px solid #1E1E1E;
     background: linear-gradient(0deg, #1E1E1E, #3d3d3d);
